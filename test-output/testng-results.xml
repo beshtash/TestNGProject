@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-19T16:12:37 CDT" name="TestNG Test Automation Suite" finished-at="2022-05-19T16:12:52 CDT" duration-ms="14222">
+    <groups>
+      <group name="Mail">
+        <method signature="GoogleTest.mailLinkTest()[pri:3, instance:com.test.GoogleTest@6631f5ca]" name="mailLinkTest" class="com.test.GoogleTest"/>
+      </group> <!-- Mail -->
+      <group name="Test">
+        <method signature="GoogleTest.test1()[pri:4, instance:com.test.GoogleTest@6631f5ca]" name="test1" class="com.test.GoogleTest"/>
+        <method signature="GoogleTest.test2()[pri:5, instance:com.test.GoogleTest@6631f5ca]" name="test2" class="com.test.GoogleTest"/>
+        <method signature="GoogleTest.test3()[pri:6, instance:com.test.GoogleTest@6631f5ca]" name="test3" class="com.test.GoogleTest"/>
+      </group> <!-- Test -->
+      <group name="Title">
+        <method signature="GoogleTest.googleTitleTest()[pri:1, instance:com.test.GoogleTest@6631f5ca]" name="googleTitleTest" class="com.test.GoogleTest"/>
+      </group> <!-- Title -->
+      <group name="Logo">
+        <method signature="GoogleTest.googleLogoTest()[pri:2, instance:com.test.GoogleTest@6631f5ca]" name="googleLogoTest" class="com.test.GoogleTest"/>
+        <method signature="GoogleTitleTest.googleLogoTest()[pri:2, instance:com.test.GoogleTitleTest@57d7f8ca]" name="googleLogoTest" class="com.test.GoogleTitleTest"/>
+      </group> <!-- Logo -->
+    </groups>
+    <test started-at="2022-05-19T16:12:37 CDT" name="Test Basics 1" finished-at="2022-05-19T16:12:52 CDT" duration-ms="14222">
+      <class name="com.test.TestNGBasics">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.TestNGBasics@bd4dc25]" started-at="2022-05-19T16:12:37 CDT" name="setUp" finished-at="2022-05-19T16:12:37 CDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.test.TestNGBasics@bd4dc25]" started-at="2022-05-19T16:12:37 CDT" name="login" finished-at="2022-05-19T16:12:37 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.test.TestNGBasics@bd4dc25]" started-at="2022-05-19T16:12:52 CDT" name="launchBrowser" finished-at="2022-05-19T16:12:52 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="googleTitleTest()[pri:0, instance:com.test.TestNGBasics@bd4dc25]" started-at="2022-05-19T16:12:52 CDT" name="googleTitleTest" finished-at="2022-05-19T16:12:52 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method is-config="true" signature="enterURL()[pri:0, instance:com.test.TestNGBasics@bd4dc25]" started-at="2022-05-19T16:12:52 CDT" name="enterURL" finished-at="2022-05-19T16:12:52 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method is-config="true" signature="enterURL()[pri:0, instance:com.test.TestNGBasics@bd4dc25]" started-at="2022-05-19T16:12:52 CDT" name="enterURL" finished-at="2022-05-19T16:12:52 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.test.TestNGBasics@bd4dc25]" started-at="2022-05-19T16:12:52 CDT" name="logOut" finished-at="2022-05-19T16:12:52 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method signature="searchTest()[pri:0, instance:com.test.TestNGBasics@bd4dc25]" started-at="2022-05-19T16:12:52 CDT" name="searchTest" finished-at="2022-05-19T16:12:52 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.test.TestNGBasics@bd4dc25]" started-at="2022-05-19T16:12:52 CDT" name="logOut" finished-at="2022-05-19T16:12:52 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.test.TestNGBasics@bd4dc25]" started-at="2022-05-19T16:12:52 CDT" name="closeBrowser" finished-at="2022-05-19T16:12:52 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="deleteAllCookies()[pri:0, instance:com.test.TestNGBasics@bd4dc25]" started-at="2022-05-19T16:12:52 CDT" name="deleteAllCookies" finished-at="2022-05-19T16:12:52 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method is-config="true" signature="generateTestReport()[pri:0, instance:com.test.TestNGBasics@bd4dc25]" started-at="2022-05-19T16:12:52 CDT" name="generateTestReport" finished-at="2022-05-19T16:12:52 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestReport -->
+      </class> <!-- com.test.TestNGBasics -->
+      <class name="com.test.GoogleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:37 CDT" name="setUp" finished-at="2022-05-19T16:12:40 CDT" duration-ms="2429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="googleTitleTest()[pri:1, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:40 CDT" name="googleTitleTest" finished-at="2022-05-19T16:12:40 CDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:40 CDT" name="tearDown" finished-at="2022-05-19T16:12:40 CDT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:40 CDT" name="setUp" finished-at="2022-05-19T16:12:41 CDT" duration-ms="1561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="googleLogoTest()[pri:2, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:41 CDT" name="googleLogoTest" finished-at="2022-05-19T16:12:42 CDT" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:42 CDT" name="tearDown" finished-at="2022-05-19T16:12:42 CDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:42 CDT" name="setUp" finished-at="2022-05-19T16:12:43 CDT" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mailLinkTest()[pri:3, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:43 CDT" name="mailLinkTest" finished-at="2022-05-19T16:12:43 CDT" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:43 CDT" name="tearDown" finished-at="2022-05-19T16:12:43 CDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:43 CDT" name="setUp" finished-at="2022-05-19T16:12:45 CDT" duration-ms="1530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:4, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:45 CDT" name="test1" finished-at="2022-05-19T16:12:45 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:45 CDT" name="tearDown" finished-at="2022-05-19T16:12:45 CDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:45 CDT" name="setUp" finished-at="2022-05-19T16:12:47 CDT" duration-ms="1551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test2()[pri:5, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:47 CDT" name="test2" finished-at="2022-05-19T16:12:47 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:47 CDT" name="tearDown" finished-at="2022-05-19T16:12:47 CDT" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:47 CDT" name="setUp" finished-at="2022-05-19T16:12:48 CDT" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test3()[pri:6, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:48 CDT" name="test3" finished-at="2022-05-19T16:12:48 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.GoogleTest@6631f5ca]" started-at="2022-05-19T16:12:48 CDT" name="tearDown" finished-at="2022-05-19T16:12:48 CDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.GoogleTest -->
+      <class name="com.test.GoogleTitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.GoogleTitleTest@57d7f8ca]" started-at="2022-05-19T16:12:48 CDT" name="setUp" finished-at="2022-05-19T16:12:50 CDT" duration-ms="1521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="googleTitleTest()[pri:0, instance:com.test.GoogleTitleTest@57d7f8ca]" started-at="2022-05-19T16:12:50 CDT" name="googleTitleTest" finished-at="2022-05-19T16:12:50 CDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.GoogleTitleTest@57d7f8ca]" started-at="2022-05-19T16:12:50 CDT" name="tearDown" finished-at="2022-05-19T16:12:50 CDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.GoogleTitleTest@57d7f8ca]" started-at="2022-05-19T16:12:50 CDT" name="setUp" finished-at="2022-05-19T16:12:51 CDT" duration-ms="1427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="googleLogoTest()[pri:2, instance:com.test.GoogleTitleTest@57d7f8ca]" started-at="2022-05-19T16:12:51 CDT" name="googleLogoTest" finished-at="2022-05-19T16:12:51 CDT" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.GoogleTitleTest@57d7f8ca]" started-at="2022-05-19T16:12:51 CDT" name="tearDown" finished-at="2022-05-19T16:12:52 CDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.GoogleTitleTest -->
+      <class name="com.test.TestNGFeatures">
+        <test-method signature="loginTest()[pri:0, instance:com.test.TestNGFeatures@3bf9ce3e]" started-at="2022-05-19T16:12:52 CDT" name="loginTest" finished-at="2022-05-19T16:12:52 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="homePageTest()[pri:0, instance:com.test.TestNGFeatures@3bf9ce3e]" started-at="2022-05-19T16:12:52 CDT" name="homePageTest" finished-at="2022-05-19T16:12:52 CDT" depends-on-methods="com.test.TestNGFeatures.loginTest" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+      </class> <!-- com.test.TestNGFeatures -->
+      <class name="com.test.InvocationCountTest">
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@78123e82]" started-at="2022-05-19T16:12:52 CDT" name="sum" finished-at="2022-05-19T16:12:52 CDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@78123e82]" started-at="2022-05-19T16:12:52 CDT" name="sum" finished-at="2022-05-19T16:12:52 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@78123e82]" started-at="2022-05-19T16:12:52 CDT" name="sum" finished-at="2022-05-19T16:12:52 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@78123e82]" started-at="2022-05-19T16:12:52 CDT" name="sum" finished-at="2022-05-19T16:12:52 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@78123e82]" started-at="2022-05-19T16:12:52 CDT" name="sum" finished-at="2022-05-19T16:12:52 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@78123e82]" started-at="2022-05-19T16:12:52 CDT" name="sum" finished-at="2022-05-19T16:12:52 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@78123e82]" started-at="2022-05-19T16:12:52 CDT" name="sum" finished-at="2022-05-19T16:12:52 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@78123e82]" started-at="2022-05-19T16:12:52 CDT" name="sum" finished-at="2022-05-19T16:12:52 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@78123e82]" started-at="2022-05-19T16:12:52 CDT" name="sum" finished-at="2022-05-19T16:12:52 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@78123e82]" started-at="2022-05-19T16:12:52 CDT" name="sum" finished-at="2022-05-19T16:12:52 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.test.InvocationCountTest -->
+      <class name="com.test.ExceptionTimeOutTest">
+        <test-method signature="test1()[pri:0, instance:com.test.ExceptionTimeOutTest@76c3e77a]" started-at="2022-05-19T16:12:52 CDT" name="test1" finished-at="2022-05-19T16:12:52 CDT" duration-ms="1" status="PASS">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "100A"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "100A"
+at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+at java.base/java.lang.Integer.parseInt(Integer.java:668)
+at java.base/java.lang.Integer.parseInt(Integer.java:786)
+at com.test.ExceptionTimeOutTest.test1(ExceptionTimeOutTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.test.ExceptionTimeOutTest -->
+    </test> <!-- Test Basics 1 -->
+  </suite> <!-- TestNG Test Automation Suite -->
+</testng-results>
