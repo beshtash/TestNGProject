@@ -7,6 +7,7 @@ public class TestNGFeatures {
 	@Test
 	public void loginTest() {
 		System.out.println("Login test.");
+		System.out.println("This is a new comment.");
 		int i = 3/1;
 	}
 	
